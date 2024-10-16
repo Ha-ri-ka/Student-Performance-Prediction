@@ -21,7 +21,7 @@ Based on analysis, the columns that effect the final grade most:<br>
 'raisedhands','VisITedResources','AnnouncementsView','Discussion','ParentAnsweringSurvey','StudentAbsenceDays','ParentschoolSatisfaction','Class'<br>
 
 **ALGORITHMS USED**<br>
-[All metrics are Macro-averages]<br>
+[All metrics are Macro-averages]<br><br>
 <i>1.Logistic regression </i><br>
 Precision:0.79&nbsp;&nbsp;recall:0.82&nbsp;&nbsp;F1-score:0.80&nbsp;&nbsp;Accuracy:0.79 <br><br>
 <i>2.Multiple Linear regression </i><br>
@@ -31,4 +31,9 @@ DEGREE 2: Precision:0.79&nbsp;&nbsp;recall:0.82&nbsp;&nbsp;F1-score:0.80&nbsp;&n
 DEGREE 3: Precision:0.32&nbsp;&nbsp;recall:0.32&nbsp;&nbsp;F1-score:0.32&nbsp;&nbsp;Accuracy:0.60 <br>
 DEGREE 4: Precision:0.25&nbsp;&nbsp;recall:0.23&nbsp;&nbsp;F1-score:0.24&nbsp;&nbsp;Accuracy:0.58 <br><br>
 <i>4.SVM </i><br>
-Precision:0.79&nbsp;&nbsp;recall:0.82&nbsp;&nbsp;F1-score:0.80&nbsp;&nbsp;Accuracy:0.79 <br>
+accuracy<br>
+LINEAR: 0.79 <br>
+SIGMOID: 0.29 <br>
+RBBF: 0.76 <br><br>
+<i>5.Decision tree classifier </i><br>
+MSE:0.28125&nbsp;&nbsp;Accuracy:0.71 <br><br>
